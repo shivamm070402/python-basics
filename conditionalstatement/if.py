@@ -12,3 +12,7 @@ print("I am Not in if")
 
 age = 19
 if age > 18: print("Eligible to Vote.")
+
+age = int(input("Enter your age: "))
+if age > 18:
+     print("Eligible to Vote.",age)
